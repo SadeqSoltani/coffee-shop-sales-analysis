@@ -11,12 +11,12 @@
 - Which cities and store types perform best?
 
 **Business Value:**
--optimize staffing during peak demand periods
--improve product promotion strategies
--increase average order value
--identify high-value customer segments
--improve seasonal and weather-based planning
--support location-specific operational decisions
+- optimize staffing during peak demand periods
+- improve product promotion strategies
+- increase average order value
+- identify high-value customer segments
+- improve seasonal and weather-based planning
+- support location-specific operational decisions
 
 **Dashboard Preview Section:**
 
@@ -31,11 +31,11 @@ From a business perspective, this creates a clear imbalance in revenue distribut
 *1.3 Month-Level Performance:* Revenue across months shows a moderate but clear seasonal pattern, with performance fluctuating between approximately $10.18K and $11.71K. The highest revenue is observed in January ($11.71K) and December ($11.61K), while the lowest point occurs in March ($10.18K). This pattern suggests that customer demand is stronger during winter months, likely driven by increased consumption of hot beverages such as coffee and tea. The elevated performance in December and January may also reflect holiday season effects, where customer traffic and spending typically increase. During the middle of the year, revenue remains relatively stable but slightly lower, indicating consistent baseline demand without strong growth drivers. The dip observed in early spring (March) highlights a potential seasonal slowdown that may be influenced by reduced consumption patterns or transitional weather conditions.From a business perspective, this trend highlights the importance of seasonal planning and demand anticipation. Operations should prioritize inventory, staffing, and promotional efforts during peak winter months to fully capture higher demand. At the same time, targeted strategies such as seasonal promotions, discounts, or limited-time offers could be implemented during lower-performing months to stabilize revenue and reduce variability throughout the year.
 
 *Strategic Recommendations:*
--Optimize staffing for peak hours and weekends to maintain service quality and reduce wait times.
--Introduce targeted off-peak promotions (e.g., lunch bundles, afternoon discounts) to boost midday and weekday sales.
--Capitalize on winter and holiday demand by increasing inventory, staffing, and seasonal offerings.
--Stabilize low-performing months with limited-time promotions and marketing campaigns.
--Increase average order value through bundling and upselling (e.g., coffee + pastry).
+- Optimize staffing for peak hours and weekends to maintain service quality and reduce wait times.
+- Introduce targeted off-peak promotions (e.g., lunch bundles, afternoon discounts) to boost midday and weekday sales.
+- Capitalize on winter and holiday demand by increasing inventory, staffing, and seasonal offerings.
+- Stabilize low-performing months with limited-time promotions and marketing campaigns.
+- Increase average order value through bundling and upselling (e.g., coffee + pastry).
 
 --------------------------------------------------------
 **Section 2. LOCATION & MARKET PERFORMANCE:**
@@ -60,11 +60,11 @@ From a strategic standpoint, the business should consider expanding standalone s
 Discounted transactions generally produce lower average order values across most categories. Merchandise maintains the highest order value overall, while coffee and tea products generate lower transaction values between approximately $5 and $6. Smoothies show relatively little variation between discounted and non-discounted orders, indicating lower pricing sensitivity. The decline in average order value suggests that discounts may reduce revenue per transaction without substantially increasing purchase quantity. From a strategic perspective, targeted bundle promotions or category-specific offers may be more effective than broad discounting strategies in improving profitability and basket value.
 
 *Strategic Recommendations:*
--Prioritize coffee and tea categories as the core revenue drivers through operational efficiency and inventory optimization.
--Increase cross-selling opportunities by bundling beverages with pastries or sandwiches.
--Reevaluate broad discounting strategies, as discounts reduce order value without significantly increasing purchase quantity.
--Apply targeted promotions to underperforming categories to improve product diversification.
--Expand merchandise visibility and promotional efforts to leverage its high transaction value.
+- Prioritize coffee and tea categories as the core revenue drivers through operational efficiency and inventory optimization.
+- Increase cross-selling opportunities by bundling beverages with pastries or sandwiches.
+- Reevaluate broad discounting strategies, as discounts reduce order value without significantly increasing purchase quantity.
+- Apply targeted promotions to underperforming categories to improve product diversification.
+- Expand merchandise visibility and promotional efforts to leverage its high transaction value.
 
 --------------------------------------------------------------
 **Section 4. CUSTOMER DEMOGRAPHICS & LOYALTY ANALYSIS:**
@@ -74,11 +74,11 @@ Discounted transactions generally produce lower average order values across most
 *4.2 Loyalty Behavior by Age Group:* Loyalty participation is highest among customers aged 65+, with approximately 38.07% classified as loyal customers, followed closely by the 35–44, 45–54, and 55–64 age groups. In contrast, the 25–34 segment, despite generating the highest revenue, shows the lowest loyalty rate at approximately 20.75%. This contrast suggests that younger customers contribute strong short-term revenue but may demonstrate weaker long-term retention behavior. Conversely, older customer groups appear more stable and relationship-driven, showing greater consistency in repeat engagement. From a strategic perspective, the business could focus on improving retention among younger high-spending customers through personalized rewards, digital loyalty programs, or targeted promotions while maintaining strong service quality for older loyal segments.
 
 Strategic Recommendations:
--Continue targeting the 25–44 demographic, as it represents the largest revenue-generating customer segment.
--Strengthen retention strategies for younger customers through personalized rewards and digital loyalty incentives.
--Maintain strong customer experience initiatives for older age groups, who demonstrate higher loyalty behavior.
--Use demographic segmentation to tailor promotions, menu offerings, and marketing campaigns more effectively.
--Develop long-term customer engagement strategies that balance high immediate revenue with sustainable customer retention.
+- Continue targeting the 25–44 demographic, as it represents the largest revenue-generating customer segment.
+- Strengthen retention strategies for younger customers through personalized rewards and digital loyalty incentives.
+- Maintain strong customer experience initiatives for older age groups, who demonstrate higher loyalty behavior.
+- Use demographic segmentation to tailor promotions, menu offerings, and marketing campaigns more effectively.
+- Develop long-term customer engagement strategies that balance high immediate revenue with sustainable customer retention.
 
 -------------------------------------------------------
 **Section 5. WEATHER IMPACT ANALYSIS:**
@@ -88,11 +88,11 @@ Strategic Recommendations:
 *5.2 Weather Impact Across Product Categories:* Coffee remains the highest-performing product category across all weather conditions, generating the strongest sales during both rainy and sunny periods. Tea also demonstrates strong performance during rainy conditions, reinforcing the relationship between colder or less favorable weather and hot beverage consumption. In contrast, categories such as smoothies and pastries contribute comparatively lower revenue across all weather scenarios. The significant decline in revenue during snowy conditions suggests that extreme weather may reduce customer mobility and overall store traffic. Operationally, this highlights the importance of weather-aware demand planning, particularly for staffing, inventory management, and promotional activities during high-performing weather conditions.
 
 *Strategic Recommendations:*
--Increase staffing and inventory readiness during rainy and sunny periods, which generate the highest customer demand.
--Use weather-based promotions and targeted marketing campaigns to capitalize on changing customer behavior.
--Prioritize hot beverage promotions during rainy or colder conditions to maximize beverage sales.
--Develop contingency plans for severe weather conditions, where customer traffic and revenue decline significantly.
--Apply city-specific operational strategies, as weather impact varies across geographic markets.
+- Increase staffing and inventory readiness during rainy and sunny periods, which generate the highest customer demand.
+- Use weather-based promotions and targeted marketing campaigns to capitalize on changing customer behavior.
+- Prioritize hot beverage promotions during rainy or colder conditions to maximize beverage sales.
+- Develop contingency plans for severe weather conditions, where customer traffic and revenue decline significantly.
+- Apply city-specific operational strategies, as weather impact varies across geographic markets.
 
 ------------------------------------------------------
 **Section 6. HOLIDAY & EVENT IMPACT ANALYSIS:**
@@ -105,8 +105,8 @@ Strategic Recommendations:
 From a strategic standpoint, city-specific holiday campaigns and localized promotional strategies may help maximize revenue performance during seasonal events.
 
 *Strategic Recommendations:*
--Increase staffing, inventory, and promotional efforts during holiday periods, when customer spending is higher.
--Prioritize high-performing categories such as merchandise and sandwiches during key holidays.
--Implement holiday-specific marketing campaigns tailored to customer purchasing behavior.
--Apply localized promotional strategies, as holiday performance varies across cities.
--Use historical holiday trends to improve seasonal demand forecasting and operational planning.
+- Increase staffing, inventory, and promotional efforts during holiday periods, when customer spending is higher.
+- Prioritize high-performing categories such as merchandise and sandwiches during key holidays.
+- Implement holiday-specific marketing campaigns tailored to customer purchasing behavior.
+- Apply localized promotional strategies, as holiday performance varies across cities.
+- Use historical holiday trends to improve seasonal demand forecasting and operational planning.
