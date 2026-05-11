@@ -3,12 +3,12 @@
 **Executive Summary:** This project analyzes coffee shop sales performance across multiple cities, product categories, customer demographics, weather conditions, and holiday periods using Power BI. The analysis identifies key revenue drivers, customer behavior patterns, and operational opportunities to support data-driven business decisions. Findings show that coffee products dominate overall sales, younger customers generate the highest revenue, older customers demonstrate stronger loyalty behavior, and weather and holidays significantly influence purchasing patterns across locations.
 
 **Business Questions**
--Which product categories generate the highest revenue?
--How does customer behavior vary across age groups?
--Do discounts improve basket size or reduce profitability?
--How do weather conditions influence customer demand?
--Which holidays generate stronger customer spending?
--Which cities and store types perform best?
+- Which product categories generate the highest revenue?
+- How does customer behavior vary across age groups?
+- Do discounts improve basket size or reduce profitability?
+- How do weather conditions influence customer demand?
+- Which holidays generate stronger customer spending?
+- Which cities and store types perform best?
 
 **Business Value:**
 -optimize staffing during peak demand periods
