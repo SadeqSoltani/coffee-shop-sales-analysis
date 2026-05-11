@@ -1,20 +1,5 @@
 **Project Title:** Coffee Shop Sales Analysis
 
-coffee-shop-sales-analysis/
-│
-├── dataset/
-│   └── coffee_shop_sales.xlsx
-│
-├── python_analysis/
-│   └── coffee_analysis.ipynb
-│   
-│
-├── powerbi_dashboard/
-│   └── coffee_dashboard.pbix
-
-
-
-
 **Executive Summary:** This project analyzes coffee shop sales performance across multiple cities, product categories, customer demographics, weather conditions, and holiday periods using Power BI. The analysis identifies key revenue drivers, customer behavior patterns, and operational opportunities to support data-driven business decisions. Findings show that coffee products dominate overall sales, younger customers generate the highest revenue, older customers demonstrate stronger loyalty behavior, and weather and holidays significantly influence purchasing patterns across locations.
 
 **Business Questions**
@@ -88,12 +73,13 @@ Discounted transactions generally produce lower average order values across most
 
 *4.2 Loyalty Behavior by Age Group:* Loyalty participation is highest among customers aged 65+, with approximately 38.07% classified as loyal customers, followed closely by the 35–44, 45–54, and 55–64 age groups. In contrast, the 25–34 segment, despite generating the highest revenue, shows the lowest loyalty rate at approximately 20.75%. This contrast suggests that younger customers contribute strong short-term revenue but may demonstrate weaker long-term retention behavior. Conversely, older customer groups appear more stable and relationship-driven, showing greater consistency in repeat engagement. From a strategic perspective, the business could focus on improving retention among younger high-spending customers through personalized rewards, digital loyalty programs, or targeted promotions while maintaining strong service quality for older loyal segments.
 
-*Strategic Recommendations:*
+Strategic Recommendations:
 -Continue targeting the 25–44 demographic, as it represents the largest revenue-generating customer segment.
 -Strengthen retention strategies for younger customers through personalized rewards and digital loyalty incentives.
 -Maintain strong customer experience initiatives for older age groups, who demonstrate higher loyalty behavior.
 -Use demographic segmentation to tailor promotions, menu offerings, and marketing campaigns more effectively.
 -Develop long-term customer engagement strategies that balance high immediate revenue with sustainable customer retention.
+
 -------------------------------------------------------
 **Section 5. WEATHER IMPACT ANALYSIS:**
 
@@ -124,34 +110,3 @@ From a strategic standpoint, city-specific holiday campaigns and localized promo
 -Implement holiday-specific marketing campaigns tailored to customer purchasing behavior.
 -Apply localized promotional strategies, as holiday performance varies across cities.
 -Use historical holiday trends to improve seasonal demand forecasting and operational planning.
-
-
-
-
-
-
-🟢 Core KPIs
-Total Revenue
-Total Transactions
-Average Order Value
-🟡 Optional (strong)
-Total Quantity Sold
-% Discount Transactions
-% Loyalty Customers
-
-
-
-
-
-Key Findings:
-
-
-
-
-
-
-
-
-
-Tools Used:
-Python (Pandas, Matplotlib, Seaborn), Power BI
