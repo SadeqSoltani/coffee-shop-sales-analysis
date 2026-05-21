@@ -1,5 +1,4 @@
-
-                                                                              *Project Title:** Coffee Shop Sales Analysis*
+*Project Title:** Coffee Shop Sales Analysis*
 
 <img width="794" height="400" alt="image" src="https://github.com/user-attachments/assets/c9dfa7e9-7456-46fa-9999-bd924a2af446" />
 
