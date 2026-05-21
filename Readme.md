@@ -1,3 +1,6 @@
+<img width="794" height="400" alt="image" src="https://github.com/user-attachments/assets/1aadfff4-de00-4503-819e-e29149e9944a" />
+
+
 **Project Title:** Coffee Shop Sales Analysis
 
 **Executive Summary:** This project analyzes coffee shop sales performance across multiple cities, product categories, customer demographics, weather conditions, and holiday periods using Power BI. The analysis identifies key revenue drivers, customer behavior patterns, and operational opportunities to support data-driven business decisions. Findings show that coffee products dominate overall sales, younger customers generate the highest revenue, older customers demonstrate stronger loyalty behavior, and weather and holidays significantly influence purchasing patterns across locations.
@@ -10,6 +13,12 @@
 - Which holidays generate stronger customer spending?
 - Which cities and store types perform best?
 
+**Dataset Description:**
+
+
+**Tools & Technologies:**
+
+**Project Workflow:**
 **Business Value:**
 - optimize staffing during peak demand periods
 - improve product promotion strategies
@@ -109,3 +118,17 @@ From a strategic standpoint, city-specific holiday campaigns and localized promo
 - Implement holiday-specific marketing campaigns tailored to customer purchasing behavior.
 - Apply localized promotional strategies, as holiday performance varies across cities.
 - Use historical holiday trends to improve seasonal demand forecasting and operational planning.
+
+
+
+
+**Strategic Recommendations:**
+
+
+**How to Run:**
+
+
+
+
+
+**Data Source & Acknowledgements:**
