@@ -1,9 +1,14 @@
-*Project Title:** Coffee Shop Sales Analysis*
+**Project Title: Coffee Shop Sales Analysis**
 
 <img width="794" height="400" alt="image" src="https://github.com/user-attachments/assets/c9dfa7e9-7456-46fa-9999-bd924a2af446" />
 
 
+**Dataset Description:**
+This dataset tracks consumer purchasing behavior across 45 coffee shops in 9 global cities over a full calendar year (January–December 2023), capturing how weather conditions, location-based pricing, and seasonal patterns influence daily sales. It is calibrated to real-world retail foot-traffic and point-of-sale (POS) benchmarks, incorporating city-level currency adjustments, transit hub pricing markups, and weather-driven demand shifts modeled with realistic autocorrelation patterns. To reflect the imperfections of real corporate data, approximately 5% of environmental records contain missing values and some demographic markers are obscured for non-loyalty customers — both handled explicitly in the data cleaning phase of this project.
+
+
 **Executive Summary:** This project analyzes coffee shop sales performance across multiple cities, product categories, customer demographics, weather conditions, and holiday periods using Power BI. The analysis identifies key revenue drivers, customer behavior patterns, and operational opportunities to support data-driven business decisions. Findings show that coffee products dominate overall sales, younger customers generate the highest revenue, older customers demonstrate stronger loyalty behavior, and weather and holidays significantly influence purchasing patterns across locations.
+
 
 **Business Questions**
 - Which product categories generate the highest revenue?
@@ -13,12 +18,7 @@
 - Which holidays generate stronger customer spending?
 - Which cities and store types perform best?
 
-**Dataset Description:**
 
-
-**Tools & Technologies:**
-
-**Project Workflow:**
 **Business Value:**
 - optimize staffing during peak demand periods
 - improve product promotion strategies
@@ -29,106 +29,157 @@
 
 **Dashboard Preview Section:**
 
-**Section 1. TIME-DRIVEN REVENUE OPTIMIZATION:**
+KPI Summary: Across all time periods, the business generated $129.54K in total revenue from 19K transactions, with an average order value of $6.85.
 
-**1.1** Hour-Based Performance: Revenue shows a strong concentration during morning hours, peaking between 7 AM and 10 AM, with the highest point reaching approximately $17.2K. This pattern indicates that customer demand is heavily driven by early-day consumption, likely associated with commuting behavior and morning routines. After midday, revenue declines significantly and remains low throughout the evening hours, suggesting underutilization of store capacity during non-peak periods.
+**Section 1. Time-Driven Revenue Optimization:**
 
-From a business perspective, this creates a clear imbalance in revenue distribution across the day, where operational efficiency is high in the morning but drops later. To address this, the business can introduce targeted midday promotions, such as lunch bundles or discounted beverages, to stimulate demand during slower hours and improve overall daily revenue utilization.
-
-**1.2** Day-Level Performance: Revenue steadily increases from Monday ($13.7K) to Saturday ($25.4K). This trend highlights significantly stronger customer activity during weekends, particularly on Saturdays, which represent the most profitable day of the week. This suggests that customer behavior is more leisure-driven on weekends, leading to higher spending and transaction volume. From an operational standpoint, staffing levels and inventory allocation should be increased on weekends, especially Saturdays, to maximize service efficiency and revenue capture. Conversely, weekday strategies could focus on attracting more customers through targeted promotions or loyalty incentives.
-
-**1.3** Month-Level Performance: Revenue across months shows a moderate but clear seasonal pattern, with performance fluctuating between approximately $10.18K and $11.71K. The highest revenue is observed in January ($11.71K) and December ($11.61K), while the lowest point occurs in March ($10.18K). This pattern suggests that customer demand is stronger during winter months, likely driven by increased consumption of hot beverages such as coffee and tea. The elevated performance in December and January may also reflect holiday season effects, where customer traffic and spending typically increase. During the middle of the year, revenue remains relatively stable but slightly lower, indicating consistent baseline demand without strong growth drivers. The dip observed in early spring (March) highlights a potential seasonal slowdown that may be influenced by reduced consumption patterns or transitional weather conditions.From a business perspective, this trend highlights the importance of seasonal planning and demand anticipation. Operations should prioritize inventory, staffing, and promotional efforts during peak winter months to fully capture higher demand. At the same time, targeted strategies such as seasonal promotions, discounts, or limited-time offers could be implemented during lower-performing months to stabilize revenue and reduce variability throughout the year.
-
-*Strategic Recommendations:*
-- Optimize staffing for peak hours and weekends to maintain service quality and reduce wait times.
-- Introduce targeted off-peak promotions (e.g., lunch bundles, afternoon discounts) to boost midday and weekday sales.
-- Capitalize on winter and holiday demand by increasing inventory, staffing, and seasonal offerings.
-- Stabilize low-performing months with limited-time promotions and marketing campaigns.
-- Increase average order value through bundling and upselling (e.g., coffee + pastry).
-
---------------------------------------------------------
-**Section 2. LOCATION & MARKET PERFORMANCE:**
-
-**2.1** City-Level Performance: Revenue across cities is relatively evenly distributed, with all locations contributing between approximately $11.6K and $15.8K. The highest-performing cities include Melbourne ($15.84K) and New York ($15.75K), while Manchester ($11.62K) represents the lowest contribution. This relatively narrow range suggests that the business has achieved balanced geographic performance without heavy dependence on a single market. From a market perspective, this indicates a well-diversified revenue base, reducing risk associated with underperformance in any single city. However, the lack of a clearly dominant market also suggests there may be untapped opportunities to further scale high-performing locations.
-
-**2.2** Store-Type Performanc: When analyzing store types, standalone stores consistently generate the highest revenue across nearly all cities, significantly outperforming airport and mall kiosk formats. This trend highlights the importance of store format as a key driver of revenue, likely due to greater space, product variety, and accessibility. In contrast, mall kiosks and airport locations contribute lower and more variable revenue, suggesting more limited capacity or situational demand. Notably, cities such as London, Manchester, and Vancouver show particularly strong performance from standalone stores, despite having limited or no contribution from other store types. This indicates that standalone formats can perform effectively even in markets without diversified store presence.
+<img width="1317" height="741" alt="image" src="https://github.com/user-attachments/assets/25ce3799-a308-4fed-92cc-8d669c7d7c24" />
 
 
-*Strategic Recommendations:*
-From a strategic standpoint, the business should consider expanding standalone store presence in high-performing cities while evaluating the efficiency of mall kiosks and airport locations. Additionally, optimizing underperforming formats or repositioning them in higher-traffic areas could improve overall market performance.
+**1.1 Hour-Based Performance:**
+Revenue follows a sharp morning concentration, climbing steeply from hour 5 onward and peaking at hour 9 with $17.2K — consistent with commuter-driven demand during the morning rush. After a sharp midday dip to $7.6K at hour 11, revenue partially recovers to a secondary peak of $8.3K at hour 15, suggesting a distinct afternoon demand window, likely driven by post-lunch and work-break visits. From hour 16 onward, revenue declines steadily, reaching its lowest levels after hour 20 ($1.0K). This two-peak daily pattern — a dominant morning spike and a smaller afternoon recovery — indicates that the business has two meaningful demand windows rather than one. Operationally, staffing and inventory should be concentrated in the 7–10 AM window, while the 14–16 PM window presents an underutilized opportunity for targeted afternoon promotions such as discounted beverages or snack bundles to deepen that secondary peak.
 
-----------------------------------------------------------
+**1.2 Day-Level Performance:**
+Weekly revenue shows a relatively flat pattern from Monday ($13.7K) through Wednesday ($15.0K), then accelerates sharply from Thursday ($15.9K) through Saturday ($25.4K) — the highest-revenue day of the week. Sunday maintains strong performance at $22.4K, making the full weekend (Saturday + Sunday: $47.8K combined) responsible for approximately 37% of weekly revenue.
+This weekend concentration reflects leisure-driven purchasing behavior with higher dwell time and transaction values. Staffing, inventory, and promotional activity should be significantly scaled up across the full weekend, not just Saturday. For the flat Mon–Wed window, targeted weekday loyalty incentives or lunchtime promotions could help shift the revenue distribution toward a more balanced weekly profile.
 
-**Section 3. PRODUCT & MENU PERFORMANCE:**
+**1.3 Month-Level Performance:**
+Monthly revenue shows a volatile, oscillating pattern rather than a smooth seasonal curve, ranging from a low of $10.18K in March to a high of $11.71K in January. Two distinct peaks are visible: a winter peak in January ($11.71K) and December ($11.61K), likely driven by holiday season traffic and increased hot beverage consumption, and a summer peak in July and August (both ~$11.23K), suggesting a second demand cycle driven by leisure activity and iced beverage demand. These two peaks are separated by notable troughs in March ($10.18K), June ($10.38K), and September ($10.42K) — transitional months where demand weakens as seasonal patterns shift.
+This pattern highlights the need for a bi-seasonal planning approach rather than a single winter-focused strategy. Peak periods in January, July–August, and December warrant increased inventory, staffing, and seasonal product launches. Transitional months — particularly March, June, and September — should be targeted with limited-time offers and marketing campaigns to prevent avoidable revenue dips.
 
-**3.1** Category-Level Revenue & Transaction Performance: Coffee is the dominant product category, generating approximately $55K in revenue and nearly 9K transactions, significantly outperforming all other categories. Tea represents the second-largest contributor with approximately $28K in revenue and 5K transactions, while sandwiches, pastries, smoothies, and merchandise contribute substantially lower sales volumes. This distribution indicates that beverage products are the primary drivers of customer demand and overall business revenue. The strong dependence on coffee and tea suggests that maintaining product quality, service efficiency, and inventory availability in these categories is critical for sustaining performance. At the same time, lower-performing categories present opportunities for cross-selling and revenue expansion through bundle offers and promotional strategies.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**3.2** Discount Impact on Purchase Quantity: Discounts appear to have a limited impact on purchase quantity across most product categories. Average quantities remain relatively stable regardless of whether discounts are applied, with only minor increases observed in categories such as merchandise and smoothies. This pattern suggests that discounts may not strongly encourage customers to purchase larger quantities, particularly for routine beverage products where purchasing behavior is already consistent. As a result, broad discounting strategies may provide limited value in increasing sales volume.
+**Section 2. Location & Market Performance**
 
-**3.3** Discount Impact on Average Order Value: Discounted transactions generally produce lower average order values across most categories. Merchandise maintains the highest order value overall, while coffee and tea products generate lower transaction values between approximately $5 and $6. Smoothies show relatively little variation between discounted and non-discounted orders, indicating lower pricing sensitivity. The decline in average order value suggests that discounts may reduce revenue per transaction without substantially increasing purchase quantity. From a strategic perspective, targeted bundle promotions or category-specific offers may be more effective than broad discounting strategies in improving profitability and basket value.
+<img width="1317" height="737" alt="image" src="https://github.com/user-attachments/assets/dbc1e02a-37d6-4643-b60d-cee8edc7c14b" />
 
-*Strategic Recommendations:*
-- Prioritize coffee and tea categories as the core revenue drivers through operational efficiency and inventory optimization.
-- Increase cross-selling opportunities by bundling beverages with pastries or sandwiches.
-- Reevaluate broad discounting strategies, as discounts reduce order value without significantly increasing purchase quantity.
-- Apply targeted promotions to underperforming categories to improve product diversification.
-- Expand merchandise visibility and promotional efforts to leverage its high transaction value.
+**2.1 City-Level Performance:**
+Revenue across the nine cities reveals a clear two-tier market structure. The top tier — Melbourne ($15.84K, 12.23%), New York ($15.75K, 12.16%), and Sydney ($15.74K, 12.15%) — are tightly clustered and together account for approximately 36.5% of total revenue. A middle tier of four cities — Los Angeles ($14.79K), Chicago ($14.39K), Toronto ($14.32K), and Vancouver ($14.27K) — contributes consistently in the $14.2K–$14.8K range. London ($12.84K, 9.91%) and Manchester ($11.62K, 8.97%) form a clear lagging tier, generating meaningfully less revenue than every other market.
+This tiered structure is more informative than the surface-level observation that revenue is "evenly distributed." While no single city dominates, the bottom two markets — London and Manchester — are underperforming relative to their geographic peers by approximately 15–25%. Understanding whether this gap is driven by store count, format mix, pricing, or local demand patterns is a key operational question for leadership.
 
---------------------------------------------------------------
-**Section 4. CUSTOMER DEMOGRAPHICS & LOYALTY ANALYSIS:**
+**2.2 Store-Type Performance:**
+Store format performance varies significantly across cities and does not follow a uniform pattern. Standalone stores are the dominant format in Vancouver, London, Manchester, and Toronto, where they generate the majority of location revenue with limited contribution from other formats. However, in Sydney, the airport store is the highest-performing format — a notable exception that likely reflects the high-traffic nature of Sydney's transit hub and the premium pricing that airport locations command. In Melbourne and New York, all three formats contribute more evenly, suggesting a balanced multi-format strategy is viable in mature, high-revenue markets. Mall kiosks show the most inconsistent performance across cities — strong in some markets (Melbourne, New York) and minimal in others (Vancouver, London) — indicating that kiosk viability is highly dependent on local foot traffic and placement quality rather than being a reliably scalable format.
 
-**4.1** Revenue Contribution by Age Group: Customers aged 25–34 generate the highest revenue, contributing approximately $31.65K, followed by the 35–44 segment with approximately $25.41K. In contrast, customers aged 65+ represent the lowest revenue contribution at approximately $13.11K. This distribution indicates that younger and middle-aged adults represent the primary spending segments of the business. The strong performance of the 25–34 group may reflect higher purchasing frequency, stronger coffee consumption habits, or greater engagement with café culture and convenience-based purchasing. Operationally, this suggests that marketing campaigns, product offerings, and promotional strategies should continue targeting younger working-age customers, who appear to represent the most commercially valuable segment.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**4.2** Loyalty Behavior by Age Group: Loyalty participation is highest among customers aged 65+, with approximately 38.07% classified as loyal customers, followed closely by the 35–44, 45–54, and 55–64 age groups. In contrast, the 25–34 segment, despite generating the highest revenue, shows the lowest loyalty rate at approximately 20.75%. This contrast suggests that younger customers contribute strong short-term revenue but may demonstrate weaker long-term retention behavior. Conversely, older customer groups appear more stable and relationship-driven, showing greater consistency in repeat engagement. From a strategic perspective, the business could focus on improving retention among younger high-spending customers through personalized rewards, digital loyalty programs, or targeted promotions while maintaining strong service quality for older loyal segments.
+**Section 3. Product & Menu Performance**
 
-Strategic Recommendations:
-- Continue targeting the 25–44 demographic, as it represents the largest revenue-generating customer segment.
-- Strengthen retention strategies for younger customers through personalized rewards and digital loyalty incentives.
-- Maintain strong customer experience initiatives for older age groups, who demonstrate higher loyalty behavior.
-- Use demographic segmentation to tailor promotions, menu offerings, and marketing campaigns more effectively.
-- Develop long-term customer engagement strategies that balance high immediate revenue with sustainable customer retention.
+<img width="1314" height="737" alt="image" src="https://github.com/user-attachments/assets/415e8c62-5aa1-4d1c-ac7f-ab80a9cce6d1" />
 
--------------------------------------------------------
-**Section 5. WEATHER IMPACT ANALYSIS:**
 
-**5.1** Weather Impact Across Cities: Revenue performance varies noticeably across weather conditions, with rainy weather generating the highest overall revenue at approximately $50.7K, followed closely by sunny conditions at approximately $48.0K. In contrast, snowy weather contributes only a minimal share of total revenue. This pattern suggests that customer purchasing behavior remains strong during rainy conditions, potentially because customers seek indoor environments and hot beverages during unfavorable weather. Across cities, rainy conditions consistently produce strong sales performance, particularly in locations such as Manchester, Vancouver, and Melbourne. Sunny weather also supports strong revenue generation in cities including Los Angeles and New York. These findings indicate that weather conditions influence customer traffic differently across geographic markets and may affect local purchasing behavior.
+**3.1 Category-Level Revenue & Transaction Performance:**
+Coffee is the dominant product category by a significant margin, generating $55K in revenue across approximately 9K transactions — representing roughly 42% of total revenue and 47% of all transactions. Tea is the clear second contributor at $28K and 5K transactions. Beyond these two beverage leaders, the remaining categories are considerably smaller: Sandwich ($17K, 2K transactions), Merchandise ($11K, 1K transactions), Pastry ($10K, 2K transactions), and Smoothie ($9K, 1K transactions).
+A notable pattern emerges when comparing revenue to transaction volume: Merchandise generates $11K from only 1K transactions, implying a high revenue-per-transaction rate — consistent with its status as the highest average order value category in the portfolio. This makes merchandise a strategically important category despite its lower transaction volume, as each sale contributes disproportionately to revenue. The heavy concentration of demand in coffee and tea (70% of total revenue combined) underscores the need to protect quality and availability in these categories while developing strategies to grow the contribution of higher-margin items like merchandise.
 
-**5.2** Weather Impact Across Product Categories: Coffee remains the highest-performing product category across all weather conditions, generating the strongest sales during both rainy and sunny periods. Tea also demonstrates strong performance during rainy conditions, reinforcing the relationship between colder or less favorable weather and hot beverage consumption. In contrast, categories such as smoothies and pastries contribute comparatively lower revenue across all weather scenarios. The significant decline in revenue during snowy conditions suggests that extreme weather may reduce customer mobility and overall store traffic. Operationally, this highlights the importance of weather-aware demand planning, particularly for staffing, inventory management, and promotional activities during high-performing weather conditions.
+**3.2 Discount Impact on Purchase Quantity:**
+Discounts produce minimal and inconsistent effects on purchase quantity across categories. The largest lift occurs in Merchandise, where average quantity increases from 1.70 to 1.92 with a discount applied — a 13% increase and the strongest discount response of any category. Coffee (+4%), Smoothie (+4%), and Tea (+3%) show small but positive responses. Pastry shows no change at all (1.71 in both conditions).
+The most analytically interesting finding is Sandwich, where discounts are associated with a slight decrease in average quantity purchased (1.73 to 1.67). This counter-intuitive result may suggest that sandwich buyers are not price-sensitive in their quantity decisions, or that discounting attracts a different customer profile with lower purchase intent. Overall, the data indicates that broad discounting is an ineffective lever for driving volume across most categories — with merchandise being the notable exception where discount-driven quantity uplift may justify the margin trade-off.
 
-*Strategic Recommendations:*
-- Increase staffing and inventory readiness during rainy and sunny periods, which generate the highest customer demand.
-- Use weather-based promotions and targeted marketing campaigns to capitalize on changing customer behavior.
-- Prioritize hot beverage promotions during rainy or colder conditions to maximize beverage sales.
-- Develop contingency plans for severe weather conditions, where customer traffic and revenue decline significantly.
-- Apply city-specific operational strategies, as weather impact varies across geographic markets.
+**3.3 Discount Impact on Average Order Value:**
+Discounts consistently reduce average order value across all six categories, but the magnitude varies meaningfully. Pastry shows the steepest percentage decline — from $4.04 to $3.61 (−11%) — making it the category where discounting is most costly relative to its already-low base price. Tea drops from $6.04 to $5.51 (−9%), and Coffee from $6.36 to $5.94 (−7%). Sandwich falls from $10.07 to $8.68 (−14% in absolute terms), the largest absolute dollar drop among mid-tier categories. Merchandise is the most discount-resilient category: despite having the highest average order value at $22.61, discounting reduces it only to $21.61 — a 4% drop that is proportionally the smallest of any category. This suggests that merchandise buyers are relatively price-insensitive and are purchasing based on product appeal rather than price incentive, making it a strong candidate for premium positioning rather than promotional discounting.
+The combined picture across 3.2 and 3.3 is clear: discounts reduce revenue per transaction without reliably increasing quantity purchased, making broad discounting a value-destructive strategy for most categories. Targeted, category-specific promotions — particularly bundle offers pairing coffee or tea with pastries — are likely to be more effective than blanket discounting.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Section 4. Customer Demographics & Loyalty Analysis**
+
+<img width="1320" height="746" alt="image" src="https://github.com/user-attachments/assets/17aa8c76-16e0-4b38-98df-936f22659d0d" />
+
+**4.1 Revenue Contribution by Age Group**
+Revenue distribution across age groups reveals a clear spending hierarchy with two notable anomalies. The 25–34 segment leads with $31.65K, followed by 35–44 at $25.41K — together these two groups account for approximately 44% of total revenue. The middle of the distribution contains a notable tie: both 55–64 and 18–24 contribute exactly $20.03K, suggesting comparable spending power despite being at opposite ends of the working-age spectrum. The 45–54 segment ($19.31K) underperforms both its adjacent age brackets, making it the second-lowest contributor ahead of only the 65+ group ($13.11K).
+The 45–54 anomaly is worth investigating: this age group typically represents peak earning years and should theoretically show stronger spending. Its relative underperformance may reflect lower visit frequency, different product preferences, or lower engagement with the brand's current marketing and product mix. The tie between 55–64 and 18–24 similarly suggests that age alone is not a reliable predictor of spending — visit frequency, loyalty status, and product category preferences are likely more meaningful drivers of revenue contribution.
+
+**4.2 Loyalty Behavior by Age Group**
+The loyalty data reveals a striking structural divide between customers aged 35 and above versus those under 35. The four older age groups cluster tightly between 36.83% (55–64) and 38.07% (65+) — a range of just 1.24 percentage points — indicating consistently high and stable loyalty participation regardless of age within this cohort. In sharp contrast, both younger groups fall sharply below this band: 18–24 at 22.71% and 25–34 at 20.75%.
+The inverse relationship between revenue contribution and loyalty rate is the central tension of this section. The 25–34 group generates the most revenue of any segment but has the lowest loyalty rate in the entire portfolio — meaning the business's highest-spending customers are also its least retained. Conversely, the 65+ group is the most loyal segment but the lowest revenue contributor, likely reflecting lower visit frequency or lower average spend per transaction. The 18–24 group, despite contributing the same revenue as 55–64, shows a loyalty rate nearly 15 percentage points lower — suggesting a significant untapped retention opportunity among younger customers who are already transacting at a meaningful level.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Section 5. Weather Impact Analysis**
+
+
+
+**5.1 Weather Impact Across Cities:**
+Revenue breaks down across four weather conditions as follows: Rainy ($50,730.98, ~39% of total), Sunny ($48,022.76, ~37%), Cloudy ($22,468.81, ~17%), and Snowy ($1,736.36, ~1%). Together, rainy and sunny conditions account for approximately 76% of total revenue, while cloudy conditions contribute a meaningful additional 17% that is often overlooked in high-level weather analysis.
+City-level patterns reveal important geographic differentiation. Vancouver ($7,593.05) and Manchester ($7,437.61) generate their highest revenue under rainy conditions — consistent with their climates and the strong association between wet weather and hot beverage consumption. Melbourne ($7,249.77) also peaks in rainy conditions and is the overall top-revenue city. London shows the most weather-dependent revenue pattern of any city: its rainy revenue ($6,536.03) is by far its strongest condition, while its snowy revenue ($24.60) is essentially zero — the lowest city-weather data point in the entire dataset — suggesting that heavy weather reduces London foot traffic to near-zero. Los Angeles ($8,382.35) and New York ($7,244.22) are the clear leaders under sunny conditions, reflecting stronger baseline demand in warmer, sunnier climates. Chicago shows notable weather sensitivity, performing stronger in sunny ($5,601.70) than rainy ($4,894.88) conditions — the reverse of most other cities — indicating that Chicago customers are more deterred by rain than their counterparts in other markets.
+
+**5.2 Weather Impact Across Product Categories:**
+Coffee dominates revenue across all weather conditions: $21,523.72 in rainy, $20,439.55 in sunny, $9,682.32 in cloudy, and $654.47 in snowy conditions. Tea is a consistent second contributor, with particularly strong rainy-weather performance ($11,204.22 vs $10,237.63 in sunny) — reinforcing the hot beverage demand pattern during adverse weather. Sandwich is the third-largest category overall ($16,650.04), with broadly similar performance across rainy ($6,381.46) and sunny ($6,496.81) conditions, suggesting food demand is less weather-sensitive than beverage demand.
+Two category-level anomalies are worth highlighting. First, Smoothie generates slightly more revenue in rainy conditions ($3,647.98) than in sunny ($3,303.55) — counter to expectations, as smoothies are typically associated with warm weather purchases. This may reflect impulse purchasing behavior rather than weather-driven preference. Second, Merchandise shows near-identical performance in rainy ($4,100.69) and sunny ($4,177.67) conditions — confirming that merchandise demand is essentially weather-neutral and should be promoted consistently year-round regardless of seasonal weather planning.
+The sharp revenue collapse under snowy conditions ($1,736.36 total) confirms that snow significantly reduces store traffic across all cities and categories, making snow event preparedness a relevant operational consideration for affected markets.
 
 ------------------------------------------------------
-**Section 6. HOLIDAY & EVENT IMPACT ANALYSIS:**
+**Section 6. Holiday & Event Impact Analysis**
 
-**6.1** Holiday Impact on Average Order Value: Average order value is higher during holidays, reaching approximately $7.30 compared to $6.84 during non-holiday periods. This increase suggests that customers tend to spend more per transaction during holidays and special events, likely driven by social gatherings, seasonal purchasing behavior, and increased promotional activity. From a business perspective, holidays represent valuable high-spending periods where customers demonstrate stronger purchasing behavior. This highlights the importance of aligning inventory, staffing, and promotional campaigns with major holiday periods to maximize revenue opportunities.
+<img width="1313" height="737" alt="image" src="https://github.com/user-attachments/assets/7c3a92b3-be40-4bef-bbad-99d225606564" />
 
-**6.2** Product Performance Across Holidays: Product performance varies noticeably across different holidays and events. Merchandise consistently generates the highest average order values, particularly during Boxing Day, Christmas Day, and New Year’s Day. Sandwiches and tea products also show strong performance during specific holidays, indicating event-driven shifts in customer purchasing preferences. These patterns suggest that customer demand changes significantly depending on the holiday context, creating opportunities for targeted product promotions and seasonal offerings. Operationally, the business could improve sales performance by prioritizing high-performing categories during specific holiday periods.
+**6.1 Holiday Impact on Average Order Value:**
 
-**6.3** City-Level Holiday Performance: Holiday performance also differs across geographic markets. Cities such as New York, Melbourne, and Los Angeles demonstrate strong average order values during specific holidays, while other locations show more moderate customer spending behavior. This variation indicates that customer response to holidays is influenced by local market conditions, demographics, and regional consumer behavior.
-From a strategic standpoint, city-specific holiday campaigns and localized promotional strategies may help maximize revenue performance during seasonal events.
+Holidays drive a measurable uplift in spending behaviour: average order value rises to $7.30 during holidays compared to $6.84 on non-holiday days — a 6.7% premium that, applied across 19K total transactions, represents a meaningful revenue opportunity when holiday periods are properly activated. The dataset covers seven named holidays across the nine cities, each with different geographic reach and product mix implications.
 
-*Strategic Recommendations:*
-- Increase staffing, inventory, and promotional efforts during holiday periods, when customer spending is higher.
-- Prioritize high-performing categories such as merchandise and sandwiches during key holidays.
-- Implement holiday-specific marketing campaigns tailored to customer purchasing behavior.
-- Apply localized promotional strategies, as holiday performance varies across cities.
-- Use historical holiday trends to improve seasonal demand forecasting and operational planning.
+**6.2 Product Performance Across Holidays:**
+Product performance during holidays reveals sharp, event-specific demand patterns that go well beyond general seasonal trends.
+Merchandise is the highest AOV category across most holidays, peaking on Boxing Day ($25.92), Christmas Day ($23.52), and New Year's Day ($21.75) — all significantly above the merchandise baseline of $22.45. This confirms that gift-related and seasonal merchandise purchasing is concentrated in the December–January holiday cluster, making this a critical inventory and visibility window for the category.
+The most striking product-holiday combination in the entire dataset is Independence Day, where Tea AOV reaches $13.24 — more than double its overall average of $5.97 — and Sandwich AOV hits $15.11, well above its $9.89 baseline. This suggests that Independence Day drives a fundamentally different consumption pattern, likely linked to social gatherings and celebratory meals, creating a distinct demand profile from other holidays.
+Veterans Day also stands out for Sandwich performance ($12.35 AOV), reinforcing that food categories experience their strongest holiday uplift during US patriotic events rather than winter holidays. Tea peaks on Australia Day ($8.56) in Australia-specific markets, reflecting regional celebration patterns.
+Boxing Day presents an analytical contradiction: despite merchandise hitting its highest AOV of the year ($25.92), the overall Boxing Day AOV ($6.15) falls below the non-holiday baseline ($6.84). This indicates that while a subset of customers make high-value merchandise purchases, the day is dominated by high-volume, low-value transactions — possibly reflecting post-holiday discount shopping behaviour. Pastry hits its lowest AOV of any holiday on Boxing Day at $2.40, the lowest single category-holiday value in the dataset.
 
+**6.3 City-Level Holiday Performance:**
+City-level analysis reveals that holiday impact is heavily shaped by geographic relevance — holidays only drive uplift in the markets where they are culturally observed.
+The single highest city-holiday AOV in the dataset is New York on Independence Day at $12.46 — nearly double the city's overall average of $7.30 — confirming that locally resonant holidays create disproportionate spending spikes in their home markets. Veterans Day is similarly US-specific, appearing only for Chicago ($7.02) and New York ($8.19). Australia Day data appears only in Melbourne ($7.56) and Sydney ($6.08), while Canada Day is observed only in Toronto ($8.40) and Vancouver ($4.65) — with Toronto significantly outperforming Vancouver on this holiday.
+At the city total level, Chicago leads with the highest overall AOV across all holidays at $6.90, followed by Melbourne ($7.63 — second highest) and Los Angeles ($7.11). Manchester ($5.87) and London ($6.01) post the two lowest city-level holiday AOVs, falling below the non-holiday baseline — consistent with their broader underperformance identified in Section 2, and suggesting that holiday activations in these two markets are currently failing to generate the spending uplift seen elsewhere.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Overall Strategic Recommendations**
 
+**Operations & Staffing**
+- Concentrate staffing and inventory around the two proven demand windows: the morning peak (7–10 AM) and the secondary afternoon window (2–4 PM), and scale up fully for the complete weekend (Saturday + Sunday), which drives approximately 37% of weekly revenue.
+- Build a bi-seasonal operational calendar with distinct inventory, staffing, and promotional plans for the winter peak (December–January) and summer peak (July–August), with targeted stabilisation campaigns during the transitional dips in March, June, and September.
+- Develop city-specific weather response plans — London and Vancouver require rainy-day operational readiness, while Los Angeles and Chicago need sunny-period capacity planning. Rainy and sunny conditions together account for 76% of total revenue.
 
-**Strategic Recommendations:**
+**Pricing & Discounting**
+- Discontinue broad discounting programs across most categories. The data consistently shows that discounts reduce average order value without meaningfully increasing purchase quantity — making them value-destructive at scale.
+- Replace discounting with beverage-plus-food bundle offers (e.g., coffee + pastry) as a higher-ROI alternative that grows basket size without eroding per-unit revenue.
+- Reposition merchandise as a premium, full-price category — buyer behaviour shows it is price-insensitive and holds AOV well even without promotional support.
 
+**Product & Menu Strategy**
+- Protect coffee and tea as the revenue engine — together they represent 70% of total revenue, and any degradation in quality, availability, or service in these two categories has an outsized business impact.
+ Promote hot beverages aggressively during rainy and cloudy conditions, where demand data confirms a clear uplift. Extend smoothie promotion beyond sunny periods, as the data shows smoothies sell slightly more in rainy conditions than expected.
+- Maintain consistent merchandise visibility year-round — it is weather-neutral — while concentrating merchandise campaign investment in the Boxing Day–Christmas–New Year's window, where AOV peaks at $21–$26.
 
+**Market & Location Strategy**
+- Address the London and Manchester performance gap as a priority. Both cities consistently underperform across revenue, holiday AOV, and weather conditions. Investigate whether the gap is driven by store format mix, pricing, local demand, or marketing investment before committing to expansion in either market.
+- Use Sydney's airport store as an internal benchmark for transit hub operations and evaluate whether airport formats in other cities are being fully optimised for premium pricing and throughput.
+- Reassess mall kiosk viability on a city-by-city basis — the format performs well in some markets and poorly in others, and should not be treated as a uniform expansion vehicle.
+
+**Customer Retention & Loyalty**
+- Make the 25–34 segment the primary retention investment target. This group generates the most revenue of any age bracket but has the lowest loyalty rate (20.75%) — even modest retention improvement here would yield significant revenue gains.
+- Design digital-first loyalty mechanics (app-based rewards, gamification, personalised offers) specifically for under-35 customers, who are unlikely to respond to traditional loyalty programs at the same rate as older cohorts.
+- Investigate the 45–54 revenue underperformance — this segment should theoretically be a strong contributor given peak earning years, and its relative weakness suggests a product, marketing, or experience misalignment worth diagnosing.
+
+**Holiday & Event Activation**
+- Localise all holiday campaigns by market — Australia Day for Melbourne and Sydney only, Canada Day for Toronto and Vancouver only, Independence Day and Veterans Day for US cities only. Generic global holiday campaigns dilute impact and waste spend.
+- Build Independence Day into the US promotional calendar as a high-priority food and beverage event — tea and sandwich AOV spike dramatically on this day, indicating strong social gathering-driven demand.
+- Investigate the Boxing Day AOV paradox: merchandise AOV peaks at $25.92 but overall day AOV falls below the non-holiday baseline, suggesting high-volume low-value transactions are dragging the average down. A minimum spend threshold or bundle mechanic could correct this.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **How to Run:**
 
+**Python Notebook:**
 
+1. Clone the repo and navigate to the folder
 
+```
+git clone https://github.com/SadeqSoltani/coffee-shop-sales-analysis.git
+cd coffee-shop-sales-analysis
+```
 
+2. Install required libraries
 
-**Data Source & Acknowledgements:**
+```
+pip install pandas numpy matplotlib seaborn
+```
+3. Open and run coffee_analysis.ipynb in Jupyter or VS Code
+
+**Power BI Dashboard:**
+
+Open powerbi_dashboard.pbix in Power BI Desktop
+
+If prompted, point the data source to coffee_shop_sales.csv in the same folder
