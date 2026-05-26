@@ -1,6 +1,6 @@
 **Project Title: Coffee Shop Sales Analysis**
 
-<img width="794" height="400" alt="image" src="https://github.com/user-attachments/assets/c9dfa7e9-7456-46fa-9999-bd924a2af446" />
+<img width="1400" height="600" alt="image" src="https://github.com/user-attachments/assets/c9dfa7e9-7456-46fa-9999-bd924a2af446" />
 
 
 **Dataset Description:**
@@ -33,7 +33,7 @@ KPI Summary: Across all time periods, the business generated $129.54K in total r
 
 **Section 1. Time-Driven Revenue Optimization:**
 
-<img width="1317" height="741" alt="image" src="https://github.com/user-attachments/assets/25ce3799-a308-4fed-92cc-8d669c7d7c24" />
+<img width="1426" height="797" alt="image" src="https://github.com/user-attachments/assets/a884acc3-ef42-48dc-9399-a9ef2eae1413" />
 
 
 **1.1 Hour-Based Performance:**
@@ -51,7 +51,8 @@ This pattern highlights the need for a bi-seasonal planning approach rather than
 
 **Section 2. Location & Market Performance**
 
-<img width="1317" height="737" alt="image" src="https://github.com/user-attachments/assets/dbc1e02a-37d6-4643-b60d-cee8edc7c14b" />
+<img width="1428" height="797" alt="image" src="https://github.com/user-attachments/assets/bda1962b-ce1c-46a9-9a12-2d7a845cc4d9" />
+
 
 **2.1 City-Level Performance:**
 Revenue across the nine cities reveals a clear two-tier market structure. The top tier — Melbourne ($15.84K, 12.23%), New York ($15.75K, 12.16%), and Sydney ($15.74K, 12.15%) — are tightly clustered and together account for approximately 36.5% of total revenue. A middle tier of four cities: Los Angeles ($14.79K), Chicago ($14.39K), Toronto ($14.32K), and Vancouver ($14.27K)  contributes consistently in the $14.2K–$14.8K range. London ($12.84K, 9.91%) and Manchester ($11.62K, 8.97%) form a clear lagging tier, generating meaningfully less revenue than every other market.
@@ -64,7 +65,8 @@ Store format performance varies significantly across cities and does not follow 
 
 **Section 3. Product & Menu Performance**
 
-<img width="1314" height="737" alt="image" src="https://github.com/user-attachments/assets/415e8c62-5aa1-4d1c-ac7f-ab80a9cce6d1" />
+<img width="1424" height="800" alt="image" src="https://github.com/user-attachments/assets/d4e96659-3a0d-4474-8bc8-467c73f96d53" />
+
 
 
 **3.1 Category-Level Revenue & Transaction Performance:**
@@ -82,7 +84,8 @@ The combined picture across 3.2 and 3.3 is clear: discounts reduce revenue per t
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Section 4. Customer Demographics & Loyalty Analysis**
 
-<img width="1320" height="746" alt="image" src="https://github.com/user-attachments/assets/17aa8c76-16e0-4b38-98df-936f22659d0d" />
+<img width="1415" height="788" alt="image" src="https://github.com/user-attachments/assets/b9dfa921-ff2e-4817-8249-fb2a69df31c0" />
+
 
 **4.1 Revenue Contribution by Age Group**
 Revenue distribution across age groups reveals a clear spending hierarchy with two notable anomalies. The 25–34 segment leads with $31.65K, followed by 35–44 at $25.41K  together these two groups account for approximately 44% of total revenue. The middle of the distribution contains a notable tie: both 55–64 and 18–24 contribute exactly $20.03K, suggesting comparable spending power despite being at opposite ends of the working-age spectrum. The 45–54 segment ($19.31K) underperforms both its adjacent age brackets, making it the second-lowest contributor ahead of only the 65+ group ($13.11K).
@@ -95,7 +98,8 @@ The inverse relationship between revenue contribution and loyalty rate is the ce
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Section 5. Weather Impact Analysis**
 
-<img width="1433" height="802" alt="image" src="https://github.com/user-attachments/assets/6a412bf9-1962-482e-8cfe-8587878dad7e" />
+<img width="1420" height="798" alt="image" src="https://github.com/user-attachments/assets/1eb5f462-84b2-41a6-b192-f15b53601217" />
+
 
 **5.1 Weather Impact Across Cities:**
 Revenue breaks down across four weather conditions as follows: Rainy ($50,730.98, ~39% of total), Sunny ($48,022.76, ~37%), Cloudy ($22,468.81, ~17%), and Snowy ($1,736.36, ~1%). Together, rainy and sunny conditions account for approximately 76% of total revenue, while cloudy conditions contribute a meaningful additional 17% that is often overlooked in high-level weather analysis.
@@ -109,7 +113,8 @@ The sharp revenue collapse under snowy conditions ($1,736.36 total) confirms tha
 ------------------------------------------------------
 **Section 6. Holiday & Event Impact Analysis**
 
-<img width="1313" height="737" alt="image" src="https://github.com/user-attachments/assets/7c3a92b3-be40-4bef-bbad-99d225606564" />
+<img width="1414" height="792" alt="image" src="https://github.com/user-attachments/assets/b26e2149-b424-42d2-969b-0aa4ab146e90" />
+
 
 **6.1 Holiday Impact on Average Order Value:**
 
