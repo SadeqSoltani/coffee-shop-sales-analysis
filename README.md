@@ -1,3 +1,5 @@
+<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/2925eace-c594-49a6-a9b4-cb5ea1cb514e" />
+
 # Coffee Shop Sales Analysis
 
 > A business intelligence project analyzing 19,000+ transactions across 9 global cities to uncover revenue drivers, validate behavioral hypotheses, and deliver actionable strategies for operations, pricing, product, and customer retention.
@@ -32,10 +34,10 @@ This project performs a full business intelligence analysis of a multi-city coff
 
 The project moves through four analytical layers:
 
-- **Data Cleaning and Engineering** — timestamp parsing, feature extraction, and quality validation
-- **Exploratory Data Analysis** — correlation mapping, distribution profiling, and outlier detection
-- **Statistical Validation** — hypothesis testing using ANOVA and t-tests to confirm which patterns are statistically significant versus visually coincidental
-- **Business Intelligence** — six themed deep-dive analyses translated into a 6-page interactive Power BI dashboard
+- **Data Cleaning and Engineering** : timestamp parsing, feature extraction, and quality validation
+- **Exploratory Data Analysis** : correlation mapping, distribution profiling, and outlier detection
+- **Statistical Validation** : hypothesis testing using ANOVA and t-tests to confirm which patterns are statistically significant versus visually coincidental
+- **Business Intelligence** : six themed deep-dive analyses translated into a 6-page interactive Power BI dashboard
 
 Every finding in this project is backed by statistical evidence before being elevated to a business recommendation.
 
@@ -221,13 +223,14 @@ The most striking product-holiday combination is Independence Day, where Tea AOV
 
 ## Power BI Dashboard
 
-The Power BI dashboard translates all Python analysis findings into an interactive 6-page visual story for business stakeholders. Built with consistent green branding, cross-page KPI cards, and slicers for City, Category, Store Type, Day, Month, and Hour.
+The Power BI dashboard translates all Python analysis findings into an interactive 6-page visual story for business stakeholders. 
 
 **Page 1: Time-Driven Revenue Optimization**
 
 Hour-level, day-level, and month-level revenue trend lines revealing the dual morning-afternoon demand structure, weekend volume concentration, and the bi-seasonal January-August peak pattern.
 
-![Time Revenue](screenshots/01_time_revenue.png)
+<img width="1426" height="797" alt="01_time_revenue" src="https://github.com/user-attachments/assets/9ea0222e-fd24-40b3-8b84-d712707430e8" />
+
 
 ---
 
@@ -235,7 +238,8 @@ Hour-level, day-level, and month-level revenue trend lines revealing the dual mo
 
 City revenue distribution and store type performance by market. Reveals the three-tier city structure and the format-specific performance patterns that vary significantly by geography.
 
-![Location Market](screenshots/02_location_market.png)
+<img width="1428" height="797" alt="02_location_market" src="https://github.com/user-attachments/assets/24022d10-edc0-4ff4-8a2e-90f60c081ce9" />
+
 
 ---
 
@@ -243,7 +247,8 @@ City revenue distribution and store type performance by market. Reveals the thre
 
 Category revenue and transaction volume comparison, discount impact on quantity purchased, and discount impact on average order value across all six categories.
 
-![Product Menu](screenshots/03_product_menu.png)
+<img width="1424" height="800" alt="03_product_menu" src="https://github.com/user-attachments/assets/3be1e35e-fc24-4529-827d-43df5e75e9f8" />
+
 
 ---
 
@@ -251,7 +256,8 @@ Category revenue and transaction volume comparison, discount impact on quantity 
 
 Revenue contribution by age group paired with loyalty rate by age group, revealing the central tension between the 25-34 segment's high revenue and low retention.
 
-![Customer Demographics](screenshots/04_customer_demographics.png)
+<img width="1415" height="788" alt="04_customer_demographics" src="https://github.com/user-attachments/assets/dc8f525b-d5ff-42e1-808a-a2de95fb7b12" />
+
 
 ---
 
@@ -259,7 +265,8 @@ Revenue contribution by age group paired with loyalty rate by age group, reveali
 
 Revenue heatmap by weather condition and city, and revenue breakdown by weather condition and product category, validated by one-way ANOVA (p = 0.0067).
 
-![Weather Impact](screenshots/05_weather_impact.png)
+<img width="1420" height="798" alt="05_weather_impact" src="https://github.com/user-attachments/assets/e50facbe-4e25-41a2-816e-c530fde20764" />
+
 
 ---
 
@@ -267,7 +274,8 @@ Revenue heatmap by weather condition and city, and revenue breakdown by weather 
 
 Average order value during holidays versus non-holidays, product AOV by holiday name, and city-level holiday performance matrix, validated by independent t-test (p = 0.0099).
 
-![Holiday Events](screenshots/06_holiday_events.png)
+<img width="1414" height="792" alt="06_holiday_events" src="https://github.com/user-attachments/assets/b238dcf2-71a1-4e07-8b80-653dbd683e2e" />
+
 
 ---
 
@@ -378,10 +386,4 @@ scipy
 ## Author
 
 **Sadeq Soltani**
-
 📍 Vaughan, Ontario, Canada
-🐙 GitHub: [github.com/SadeqSoltani](https://github.com/SadeqSoltani)
-
----
-
-*Built as part of a data analytics portfolio targeting Data Analyst and Business Analyst roles in the Canadian market.*
