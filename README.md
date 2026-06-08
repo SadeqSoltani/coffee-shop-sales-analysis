@@ -386,4 +386,3 @@ scipy
 ## Author
 
 **Sadeq Soltani**
-📍 Vaughan, Ontario, Canada
