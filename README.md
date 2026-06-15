@@ -1,15 +1,7 @@
-<img width="1000" height="400" alt="image" src="https://github.com/user-attachments/assets/2925eace-c594-49a6-a9b4-cb5ea1cb514e" />
 
 # Coffee Shop Sales Analysis
 
 > A business intelligence project analyzing 19,000+ transactions across 9 global cities to uncover revenue drivers, validate behavioral hypotheses, and deliver actionable strategies for operations, pricing, product, and customer retention.
-
-[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=flat&logo=powerbi&logoColor=black)]()
-[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=flat&logo=pandas&logoColor=white)]()
-[![SciPy](https://img.shields.io/badge/SciPy-Statistical%20Testing-8CAAE6?style=flat&logo=scipy&logoColor=white)]()
-[![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4C72B0?style=flat)]()
-
 ---
 
 ## Table of Contents
